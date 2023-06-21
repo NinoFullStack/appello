@@ -1,0 +1,49 @@
+@media (max-width: 768px) {
+  .industry {
+    padding: 60px 0;
+    margin-bottom: 60px;
+
+    .container {
+      padding-left: 0;
+    }
+
+    .text {
+      line-height: 25px;
+    }
+  }
+}
+
+@media (max-width: 520px) {
+  .industry {
+    .container {
+      grid-template-columns: 1fr;
+      grid-gap: 10px;
+    }
+
+    &-catalogs img {
+      width: 70px;
+      height: auto;
+    }
+
+    .text {
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .industry {
+    .title {
+      font-size: 26px;
+      margin-bottom: 0px;
+    }
+
+    &-catalogs {
+      grid-gap: 10px;
+
+      img {
+        width: 60px;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@media (max-width: 800px) {
+  .partnerships {
+    &-items {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .partnerships {
+    &-items {
+      grid-template-columns: 1fr;
+    }
+  }
+}

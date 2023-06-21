@@ -1,0 +1,26 @@
+.industry {
+  background-color: #fafafa;
+  padding: 150px 0 200px;
+  margin-bottom: 150px;
+
+  .container {
+    padding-left: 80px;
+    display: grid;
+    grid-template-columns: 492px;
+  }
+
+  .title {
+    text-align: left;
+  }
+
+  .text {
+    margin-bottom: 45px;
+  }
+
+  &-catalogs {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    align-items: center;
+    grid-gap: 30px;
+  }
+}

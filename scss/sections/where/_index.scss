@@ -1,0 +1,45 @@
+.where {
+  margin-bottom: 150px;
+
+  .subtitle {
+    margin-bottom: 85px;
+  }
+
+  &-navigation {
+    text-align: center;
+    margin-bottom: 50px;
+
+    &__btn {
+      font-size: 23px;
+      line-height: 38px;
+      cursor: pointer;
+      transition: color 0.3s;
+
+      &:not(:last-child) {
+        margin-right: 100px;
+      }
+
+      &--active {
+        color: #0a8bfe;
+        transition: color 0.3s;
+      }
+    }
+  }
+
+  &-tabs {
+    margin-bottom: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    display: grid;
+
+    &__item {
+      padding: 40px;
+      border: 1px solid #e8e8e8;
+
+      .item-title {
+        font-size: 19px;
+        line-height: 28px;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.relationships {
+  margin-bottom: 60px;
+
+  .subtitle {
+    margin-bottom: 70px;
+  }
+
+  &-companies {
+    padding: 100px 80px;
+    background-color: #fafafa;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 100px 0;
+
+    &__company {
+      width: max-content;
+      height: max-content;
+      display: grid;
+      justify-self: center;
+    }
+  }
+}

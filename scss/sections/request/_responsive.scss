@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+  .request {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .request {
+    grid-template-columns: 1fr;
+
+    &-form {
+      padding: 25px;
+
+      &__title {
+        margin-bottom: 70px;
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.faq {
+  padding: 100px 0;
+  margin-bottom: 150px;
+  background-color: #fafafa;
+
+  .subtitle {
+    margin-bottom: 75px;
+
+    &-link {
+      color: #0a8bfe;
+    }
+  }
+
+  &-accordion {
+    &__item {
+      border-bottom: 1px solid #e8e8e8;
+
+      .item-head {
+        padding: 36px 0;
+        display: grid;
+        grid-template-columns: 0.8fr max-content;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+      }
+
+      .item-title {
+        font-size: 19px;
+        line-height: 24px;
+      }
+
+      .item-content {
+        display: none;
+        padding: 0 30px;
+
+        .text {
+          margin-bottom: 15px;
+        }
+      }
+
+      &--active {
+        .item-icon path[data-active] {
+          fill: none;
+        }
+
+        .item-head {
+          padding: 36px 0 25px;
+        }
+
+        .item-content {
+          display: block;
+        }
+      }
+    }
+  }
+}
